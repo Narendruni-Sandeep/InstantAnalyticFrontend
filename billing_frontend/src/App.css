@@ -1,0 +1,137 @@
+.billing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #4b0082, #000000); /* Purple to black gradient */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.billing-header {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.billing-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.coupon-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.apply-button {
+  background-color: #800080; /* Purple */
+  color: #fff;
+}
+
+.remove-button {
+  background-color: #ff4500; /* Orange */
+  color: #fff;
+}
+
+.pay-button {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}
+
+.history-button {
+  background-color: #2196f3; /* Blue */
+  color: #fff;
+}
+
+.billing-history {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(75, 0, 130, 0.3); /* Purple background for the billing history */
+  border-radius: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  color: #fff;
+}
+
+.billing-history-item {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighter contrast for each history item */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  word-wrap: break-word; /* Ensures long text wraps within the container */
+  overflow-wrap: break-word;
+  white-space: normal;
+  color: #f8f8f8; /* Softer white text for content */
+  font-size: 0.9rem; /* Slightly smaller text size */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for each item */
+  text-align: left; /* Align content to the left for better readability */
+}
+
+.billing-history-item p {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.billing-history-item p span {
+  font-weight: bold;
+  color: #ffd700; /* Gold color for key labels (e.g., Transaction ID, Amount Paid) */
+}
+
+/* Success Page Specific Styles */
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #4b0082, #000000); /* Purple to black gradient */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.success-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.success-message {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ffd700; /* Gold for the success message */
+}
+
+.success-button {
+  background-color: #4caf50; /* Green */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-button:hover {
+  background-color: #45a049; /* Slightly darker green */
+}
